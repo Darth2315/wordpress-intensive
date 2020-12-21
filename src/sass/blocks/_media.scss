@@ -3,15 +3,15 @@
         max-width: 960px;
     }
     .promo {
-        .line, .line_2 {
-            width: 215px;
+        .simple {
+            .line, .line_2 {
+                width: 215px;
+            }
         }
     }
     .waiting {
-        .waiting_wrapper {
-            .waiting_item {
-                width: 315px;
-            }
+        &_item {
+            width: 315px;
         }
     }
 }
@@ -27,28 +27,26 @@
             .title_big {
                 font-size: 60px;
             }
+            .line, .line_2 {
+                width: 160px;
+            }
         }
-        .line, .line_2 {
-            width: 160px;
-        }
-        .promo_text {
+        &_text {
             font-size: 18px;
         }
     }
     .waiting {
-        .waiting_wrapper {
-            .waiting_item {
-                width: 235px;
-            }
+        &_item {
+            width: 235px;
         }
     }
     .optimization {
-        padding: 75px 0 75px 0;
-        .optimization_header {
+        padding: 75px 0;
+        &_header {
             font-size: 27px;
             margin-left: 350px;
         }
-        .optimization_text {
+        &_text {
             margin-top: 20px;
             margin-left: 350px;
             font-size: 15px;
@@ -56,22 +54,18 @@
         }
     }
     .finish {
-        .finish_wrapper {
-            .finish_item {
-                .finish_descr {
-                    font-size: 14px;
-                  }
-            }
+        &_descr {
+            font-size: 14px;
         }
     }
     .gift {
-        padding: 75px 0 75px 0;
-        .gift_text {
+        padding: 75px 0;
+        &_text {
             font-size: 27px;
-          }
+        }
     }
     .first {
-        padding: 75px 0 64px 0;
+        padding: 75px 0 65px 0;
     }
 }
 @media (max-width: 768px) {
@@ -90,14 +84,14 @@
             .title_big {
                 font-size: 50px;
             }
+            .line, .line_2 {
+                width: 100px;
+            }
         }
-        .line, .line_2 {
-            width: 100px;
-        }
-        .promo_text {
+        &_text {
             font-size: 16px;
         }
-        .promo_btn {
+        &_btn {
             width: 300px;
             height: 65px;
             font-size: 20px;
@@ -107,68 +101,62 @@
     .waiting {
         padding: 60px 0 0 0;
         min-height: 560px;
-        .waiting_header {
+        &_header {
             font-size: 27px;
         }
-        .waiting_divider {
+        .divider {
             margin-top: 30px;
         }
-        .waiting_subheader {
+        &_subheader {
             font-size: 18px;
             margin-top: 28px;
         }
-        .waiting_wrapper {
-            .waiting_item {
-                width: 175px;
-                .waiting_descr {
-                    font-size: 12px;
-                    line-height: 19px;
-                    margin-top: 25px;
-                }
-            }
+        &_item {
+            width: 175px;
+        }
+        &_descr {
+            font-size: 12px;
+            line-height: 19px;
+            margin-top: 25px;
         }
     }
     .optimization {
         padding: 75px 0 75px 0;
-        .optimization_header {
+        &_header {
             font-size: 27px;
             margin-left: 80px;
         }
-        .optimization_text {
+        &_text {
             margin-left: 80px;
         }
-        .optimization_img {
+        &_img {
             left: -476px;
         }
     }
     .finish {
         padding: 65px 0;
-        .finish_header {
+        &_header {
             font-size: 27px;
         }
-        .finish_divider {
+        .divider {
             margin-top: 30px;
         }
-        .finish_wrapper {
-            .finish_item {
-                .finish_round {
-                    width: 90px;
-                    height: 90px;
-                }
-                .finish_descr {
-                    font-size: 13px;
-                }
-            }
+        &_round {
+            width: 90px;
+            height: 90px;
+        }
+        &_descr {
+            font-size: 13px;
         }
     }
     .gift {
         padding: 65px 0;
-        .gift_text {
+        &_text {
             margin-top: 35px;
             font-size: 23px;
             line-height: 35px;
         }
-        .gift_btn {
+        &_btn {
             width: 300px;
             height: 65px;
             font-size: 20px;
@@ -177,13 +165,13 @@
     }
     .first {
         padding: 65px 0;
-        .first_header {
+        &_header {
             font-size: 27px;
         }
-        .first_title {
+        &_title {
             font-size: 30px;
         }
-        .first_text {
+        &_text {
             font-size: 21px;
         }
     }
@@ -204,15 +192,15 @@
             .title_big {
                 font-size: 38px;
             }
+            .line, .line_2 {
+                width: 30px;
+            }
         }
-        .line, .line_2 {
-            width: 30px;
-        }
-        .promo_text {
+        &_text {
             font-size: 16px;
             line-height: 25px;
         }
-        .promo_btn {
+        &_btn {
             margin-top: 40px;
             width: 250px;
             height: 60px;
@@ -225,71 +213,71 @@
     }
     .waiting {
         padding: 60px 0 40px 0;
-        .waiting_header {
+        &_header {
             font-size: 24px;
         }
-        .waiting_wrapper {
+        &_wrapper {
             margin-top: 5px;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            .waiting_item {
-                margin-top: 30px;
-                width: 290px;
-                .waiting_descr {
-                    font-size: 14px;
-                    line-height: 21px;
-                    margin-top: 10px;
-                }
-            }
+        }
+        &_item {
+            margin-top: 30px;
+            width: 290px;
+        }
+        &_descr {
+            font-size: 14px;
+            line-height: 21px;
+            margin-top: 10px;
         }
     }
     .optimization {
         padding: 55px 6px;
-        .optimization_header {
+        &_header {
             font-size: 22px;
             margin-left: 0;
             text-align: center;
         }
-        .optimization_text {
+        &_text {
             margin-left: 0;
             text-align: center;
         }
-        .optimization_img {
+        &_img {
             left: -560px;
         }
     }
     .finish {
         padding: 50px 0;
-        .finish_header {
+        &_header {
             font-size: 22px;
         }
-        .finish_wrapper {
+        &_wrapper {
             margin-top: 10px;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            .finish_item {
-                margin-top: 25px;
-                .finish_round {
-                    width: 115px;
-                    height: 115px;
-                }
-                .finish_descr {
-                    margin-top: 10px;
-                    font-size: 16px;
-                }
-            }
+        }
+        &_item {
+            margin-top: 25px;
+        }
+        &_round {
+            width: 115px;
+            height: 115px;
+        }
+        &_descr {
+            margin-top: 10px;
+            font-size: 16px;
         }
     }
     .gift {
         padding: 55px 6px;
-        .gift_text {
+        &_text {
             margin-top: 35px;
             font-size: 21px;
             line-height: 33px;
         }
-        .gift_btn {
+        &_btn {
             margin-top: 30px;
             width: 250px;
             height: 60px;
@@ -302,27 +290,29 @@
         img {
             width: 290px;
         }
-        .first_header {
+        &_header {
             font-size: 18px;
         }
-        .first_title {
-            font-size: 24px;
+        &_title {
+            font-size: 28px;
         }
-        .first_text {
+        &_text {
             font-size: 18px;
         }
     }
-    .info {
-        width: 100%;
-        .info_links {
-            display: flex;
-            flex-direction: column;
-            a {
-                margin-bottom: 10px;
+    footer {
+        .info {
+            width: 100%;
+            &_links {
+                display: flex;
+                flex-direction: column;
+                span {
+                    display: none;
+                }
             }
-            span {
-                display: none;
-            }
+        }
+        a {
+            margin-bottom: 10px;
         }
     }
 }

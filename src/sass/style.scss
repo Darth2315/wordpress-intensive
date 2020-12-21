@@ -1,4 +1,5 @@
 @import "base/fonts";
+@import "base/mixins";
 
 * {
     box-sizing: border-box;
@@ -14,6 +15,14 @@ html {
     position: relative;
     width: 1140px;
     margin: 0 auto;
+}
+
+.divider {
+    margin: 0 auto;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin-top: 18px;
 }
 
 @import "blocks/main";
