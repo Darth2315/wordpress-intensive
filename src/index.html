@@ -50,7 +50,7 @@
                 И только единицы из них становятся популярными и приносят ощутимую прибыль. В чем секрет? В чем формула успеха? Узнайте на предстоящем двухдневном <span>БЕСПЛАТНОМ</span> интенсиве!
             </div>
 
-            <button class="promo_btn">Записаться на интенсив!</button>
+            <button class="promo_btn" data-modal>Записаться на интенсив!</button>
 
             <div class="more">
                 <div class="more_text">узнать больше об интенсиве</div>
@@ -145,7 +145,7 @@
                 <div class="gift_text">
                     Для всех участников интенсива предусмотрены бонусы и подарки. Нажимайте на кнопку ниже, принимайте участие в вебинарах и забирайте свой приз по окончании обучения!
                 </div>
-                <button class="gift_btn">Записаться на интенсив!</button>
+                <button class="gift_btn" data-modal>Записаться на интенсив!</button>
         </div>
     </section>
     
@@ -168,5 +168,32 @@
             Позвоните нам <a href="tel:+88000000000">8-800-000-00-00</a> 
         </div>
     </footer>
+
+    <a href="#up" class="pageup">
+        <img src="icons/up.svg" alt="Up">
+    </a>
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Просто заполните форму заявки</div>
+            <div class="modal__descr">и мы перезвоним вам в течение 10 минут</div>
+            <form class="feed-form feed-form_mt25" action="#">
+                <input name="name" required type="text" placeholder="Ваше ім'я">
+                <input name="phone" required type="text" placeholder="Ваш телефон">
+                <input name="email" required type="email" placeholder="Ваш E-mail">
+
+                <button>заказать консультацию</button>
+            </form>
+        </div>
+
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__title">Спасибо за ваше обращение!</div>
+            <div class="modal__text">Я свяжусь с вами в ближайшее время :)</div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
