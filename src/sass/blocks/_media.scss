@@ -1,0 +1,328 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .promo {
+        .line, .line_2 {
+            width: 215px;
+        }
+    }
+    .waiting {
+        .waiting_wrapper {
+            .waiting_item {
+                width: 315px;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .promo {
+        .title {
+            font-size: 30px;
+        }
+        .simple {          
+            .title_big {
+                font-size: 60px;
+            }
+        }
+        .line, .line_2 {
+            width: 160px;
+        }
+        .promo_text {
+            font-size: 18px;
+        }
+    }
+    .waiting {
+        .waiting_wrapper {
+            .waiting_item {
+                width: 235px;
+            }
+        }
+    }
+    .optimization {
+        padding: 75px 0 75px 0;
+        .optimization_header {
+            font-size: 27px;
+            margin-left: 350px;
+        }
+        .optimization_text {
+            margin-top: 20px;
+            margin-left: 350px;
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+    .finish {
+        .finish_wrapper {
+            .finish_item {
+                .finish_descr {
+                    font-size: 14px;
+                  }
+            }
+        }
+    }
+    .gift {
+        padding: 75px 0 75px 0;
+        .gift_text {
+            font-size: 27px;
+          }
+    }
+    .first {
+        padding: 75px 0 64px 0;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .promo {
+        padding: 25px 0 62px 0;
+        h1 {
+            margin-top: 45px;
+        }
+        .title {
+            font-size: 24px;
+        }
+        .simple {          
+            .title_big {
+                font-size: 50px;
+            }
+        }
+        .line, .line_2 {
+            width: 100px;
+        }
+        .promo_text {
+            font-size: 16px;
+        }
+        .promo_btn {
+            width: 300px;
+            height: 65px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+    .waiting {
+        padding: 60px 0 0 0;
+        min-height: 560px;
+        .waiting_header {
+            font-size: 27px;
+        }
+        .waiting_divider {
+            margin-top: 30px;
+        }
+        .waiting_subheader {
+            font-size: 18px;
+            margin-top: 28px;
+        }
+        .waiting_wrapper {
+            .waiting_item {
+                width: 175px;
+                .waiting_descr {
+                    font-size: 12px;
+                    line-height: 19px;
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+    .optimization {
+        padding: 75px 0 75px 0;
+        .optimization_header {
+            font-size: 27px;
+            margin-left: 80px;
+        }
+        .optimization_text {
+            margin-left: 80px;
+        }
+        .optimization_img {
+            left: -476px;
+        }
+    }
+    .finish {
+        padding: 65px 0;
+        .finish_header {
+            font-size: 27px;
+        }
+        .finish_divider {
+            margin-top: 30px;
+        }
+        .finish_wrapper {
+            .finish_item {
+                .finish_round {
+                    width: 90px;
+                    height: 90px;
+                }
+                .finish_descr {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .gift {
+        padding: 65px 0;
+        .gift_text {
+            margin-top: 35px;
+            font-size: 23px;
+            line-height: 35px;
+        }
+        .gift_btn {
+            width: 300px;
+            height: 65px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+    .first {
+        padding: 65px 0;
+        .first_header {
+            font-size: 27px;
+        }
+        .first_title {
+            font-size: 30px;
+        }
+        .first_text {
+            font-size: 21px;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+    .promo {
+        padding: 25px 0 62px 0;
+        h1 {
+            margin-top: 35px;
+        }
+        .title {
+            font-size: 22px;
+        }
+        .simple {          
+            .title_big {
+                font-size: 38px;
+            }
+        }
+        .line, .line_2 {
+            width: 30px;
+        }
+        .promo_text {
+            font-size: 16px;
+            line-height: 25px;
+        }
+        .promo_btn {
+            margin-top: 40px;
+            width: 250px;
+            height: 60px;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        .more {
+            margin-top: 55px;
+        }
+    }
+    .waiting {
+        padding: 60px 0 40px 0;
+        .waiting_header {
+            font-size: 24px;
+        }
+        .waiting_wrapper {
+            margin-top: 5px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            .waiting_item {
+                margin-top: 30px;
+                width: 290px;
+                .waiting_descr {
+                    font-size: 14px;
+                    line-height: 21px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    .optimization {
+        padding: 55px 6px;
+        .optimization_header {
+            font-size: 22px;
+            margin-left: 0;
+            text-align: center;
+        }
+        .optimization_text {
+            margin-left: 0;
+            text-align: center;
+        }
+        .optimization_img {
+            left: -560px;
+        }
+    }
+    .finish {
+        padding: 50px 0;
+        .finish_header {
+            font-size: 22px;
+        }
+        .finish_wrapper {
+            margin-top: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            .finish_item {
+                margin-top: 25px;
+                .finish_round {
+                    width: 115px;
+                    height: 115px;
+                }
+                .finish_descr {
+                    margin-top: 10px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .gift {
+        padding: 55px 6px;
+        .gift_text {
+            margin-top: 35px;
+            font-size: 21px;
+            line-height: 33px;
+        }
+        .gift_btn {
+            margin-top: 30px;
+            width: 250px;
+            height: 60px;
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+    .first {
+        padding: 55px 0;
+        img {
+            width: 290px;
+        }
+        .first_header {
+            font-size: 18px;
+        }
+        .first_title {
+            font-size: 24px;
+        }
+        .first_text {
+            font-size: 18px;
+        }
+    }
+    .info {
+        width: 100%;
+        .info_links {
+            display: flex;
+            flex-direction: column;
+            a {
+                margin-bottom: 10px;
+            }
+            span {
+                display: none;
+            }
+        }
+    }
+}
