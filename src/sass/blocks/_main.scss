@@ -188,6 +188,11 @@
 		height: 115px;
 		background-color: #b4e2ff;
 		border-radius: 100%;
+		transition: all .2s;
+		&:hover {
+            transform: scale(1.02);
+            filter: brightness(0.95);
+        }
 	}
 	&_descr {
 		margin-top: 25px;
@@ -206,6 +211,11 @@
 	&_img {
 		display: block;
 		margin: 0 auto;
+		transition: all 1.5s;
+		&:hover {
+			filter: contrast(150%) brightness(80%);
+			transform: rotate(360deg);
+        }
 	}
 	&_text {
 		margin-top: 42px;
@@ -302,7 +312,10 @@ footer {
         font-size: 41px;
         line-height: 21px;
         cursor: pointer;
-    }
+	}
+	&__title, &__text {
+		text-align: center;
+	}
     &__subtitle {
         color: #0d0d0d;
         font-size: 18px;
@@ -323,7 +336,7 @@ footer {
     }
 }
 
-#consultation, #order, #thanks {
+#consultation, #thanks {
     display: none;
 }
 
@@ -352,22 +365,6 @@ footer {
 	button {
 		@include form-btn;
 	}
-    .attantionMessage {
-        font-size: 12px;
-        text-align: center;
-        margin-bottom: 20px;
-        color: red;
-    }
-    .status {
-        font-size: 15px;
-        margin: 15px auto;
-        color: red;
-        &_white {
-            font-size: 15px;
-            margin: 15px auto;
-            color: #ffffff;
-        }
-    }
 }
 
 .pageup {
@@ -377,7 +374,7 @@ footer {
     right: 40px;
     width: 45px;
     height: 45px;
-    opacity: 1;
+    opacity: .8;
     transition: all .7s;
     img {
         width: 100%;

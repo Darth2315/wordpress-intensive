@@ -14,6 +14,9 @@
             width: 315px;
         }
     }
+    .pageup {
+        right: 20px;
+    }
 }
 @media (max-width: 992px) {
     .container {
@@ -175,6 +178,9 @@
             font-size: 21px;
         }
     }
+    .pageup {
+        right: 15px;
+    }
 }
 @media (max-width: 576px) {
     .container {
@@ -314,5 +320,20 @@
         a {
             margin-bottom: 10px;
         }
+    }
+    .modal {
+        padding: 30px 10px;
+        width: 300px;
+        &__close {
+            top: -35px;
+            right: 10px;
+            font-size: 50px;
+        }
+    }
+    .feed-form {
+        width: 280px;
+    }      
+    .pageup {
+        right: 7px;
     }
 }
