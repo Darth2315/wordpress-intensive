@@ -383,3 +383,17 @@ footer {
         transform: scale(1.1);
     }
 }
+
+.back {
+    position: fixed;
+    top: 40px;
+	left: 5px;
+	transform: rotate(-90deg);
+    width: 45px;
+	height: 45px;
+	opacity: .8;
+    transition: all .7s;
+    &:hover {
+		transform: rotate(-90deg) scale(1.1);
+    }
+}
